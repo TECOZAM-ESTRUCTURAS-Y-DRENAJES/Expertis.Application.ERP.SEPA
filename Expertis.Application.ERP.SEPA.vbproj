@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F551C88F-C725-4BF5-8412-01F920B08EF8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Solmicro.Expertis.Application.ERP.SEPA</RootNamespace>
+    <AssemblyName>Expertis.Application.ERP.SEPA</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\..\..\bin\</OutputPath>
+    <DocumentationFile>Expertis.Application.ERP.SEPA.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>Full</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\..\..\..\..\..\ExpertisNet50R2test\Bin\</OutputPath>
+    <DocumentationFile>Expertis.Application.ERP.SEPA.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Expertis.Application.ERP.CommonClasses, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Business.BusinessEnum, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Business.General, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Business.Negocio, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Business.SEPA, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Engine.BE.BusinessEngine, Version=5.0.0.0, Culture=neutral, PublicKeyToken=f4e70a047dadc395, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Engine.Global, Version=5.0.0.0, Culture=neutral, PublicKeyToken=f4e70a047dadc395, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Engine.UI.CommonClasses, Version=5.0.0.0, Culture=neutral, PublicKeyToken=f4e70a047dadc395, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Engine.UI.Resources, Version=5.0.0.0, Culture=neutral, PublicKeyToken=f4e70a047dadc395, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Expertis.Engine.UI.WinControls, Version=5.0.0.0, Culture=neutral, PublicKeyToken=f4e70a047dadc395, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Janus.Data.v3, Version=3.5.109.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL" />
+    <Reference Include="Janus.Windows.ButtonBar.v3, Version=3.5.109.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL" />
+    <Reference Include="Janus.Windows.CalendarCombo.v3, Version=3.5.109.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL" />
+    <Reference Include="Janus.Windows.Common.v3, Version=3.5.109.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL" />
+    <Reference Include="Janus.Windows.ExplorerBar.v3, Version=3.5.109.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL" />
+    <Reference Include="Janus.Windows.GridEX.v3, Version=3.5.109.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL" />
+    <Reference Include="Janus.Windows.Schedule.v3, Version=3.5.109.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL" />
+    <Reference Include="Janus.Windows.TimeLine.v3, Version=3.5.109.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL" />
+    <Reference Include="Janus.Windows.UI.v3, Version=3.5.109.0, Culture=neutral, PublicKeyToken=21d5517571b185bf, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Janus.Data" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="Solmicro.Expertis.Application.ERP.CommonClasses" />
+    <Import Include="Solmicro.Expertis.Business.BusinessEnum" />
+    <Import Include="Solmicro.Expertis.Business.General" />
+    <Import Include="Solmicro.Expertis.Business.Negocio" />
+    <Import Include="Solmicro.Expertis.Business.SEPA" />
+    <Import Include="Solmicro.Expertis.Engine" />
+    <Import Include="Solmicro.Expertis.Engine.BE" />
+    <Import Include="Solmicro.Expertis.Engine.BE.SystemDataObjects" />
+    <Import Include="Solmicro.Expertis.Engine.UI" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccionesGlobales\AbrirMandatosBancoPropio.vb" />
+    <Compile Include="AccionesGlobales\AbrirMandatosCliente.vb" />
+    <Compile Include="AccionesGlobales\AbrirMandatosProveedor.vb" />
+    <Compile Include="ActualizacionesMasivas\CIBancoPropioBanco.Designer.vb">
+      <DependentUpon>CIBancoPropioBanco.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ActualizacionesMasivas\CIBancoPropioBanco.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActualizacionesMasivas\CIClienteBanco.Designer.vb">
+      <DependentUpon>CIClienteBanco.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ActualizacionesMasivas\CIClienteBanco.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActualizacionesMasivas\CICobrosMandato.Designer.vb">
+      <DependentUpon>CICobrosMandato.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ActualizacionesMasivas\CICobrosMandato.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActualizacionesMasivas\CIPersonalBanco.Designer.vb">
+      <DependentUpon>CIPersonalBanco.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ActualizacionesMasivas\CIPersonalBanco.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActualizacionesMasivas\CIProveedorBanco.Designer.vb">
+      <DependentUpon>CIProveedorBanco.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ActualizacionesMasivas\CIProveedorBanco.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ActualizacionesMasivas\frmIntroducirCodigoISO.Designer.vb">
+      <DependentUpon>frmIntroducirCodigoISO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ActualizacionesMasivas\frmIntroducirCodigoISO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneracionFicheros\CIRemesasCobros.Designer.vb">
+      <DependentUpon>CIRemesasCobros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GeneracionFicheros\CIRemesasCobros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneracionFicheros\CIRemesasPagos.Designer.vb">
+      <DependentUpon>CIRemesasPagos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GeneracionFicheros\CIRemesasPagos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GeneracionFicheros\frmDatosFichero.Designer.vb">
+      <DependentUpon>frmDatosFichero.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GeneracionFicheros\frmDatosFichero.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mandatos\CIMandatos.Designer.vb">
+      <DependentUpon>CIMandatos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mandatos\CIMandatos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="General.vb" />
+    <Compile Include="Mandatos\MntoMandato.Designer.vb">
+      <DependentUpon>MntoMandato.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mandatos\MntoMandato.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ActualizacionesMasivas\CIBancoPropioBanco.resx">
+      <DependentUpon>CIBancoPropioBanco.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActualizacionesMasivas\CIClienteBanco.resx">
+      <DependentUpon>CIClienteBanco.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActualizacionesMasivas\CICobrosMandato.resx">
+      <DependentUpon>CICobrosMandato.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActualizacionesMasivas\CIPersonalBanco.resx">
+      <DependentUpon>CIPersonalBanco.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActualizacionesMasivas\CIProveedorBanco.resx">
+      <DependentUpon>CIProveedorBanco.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ActualizacionesMasivas\frmIntroducirCodigoISO.resx">
+      <DependentUpon>frmIntroducirCodigoISO.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneracionFicheros\CIRemesasCobros.resx">
+      <DependentUpon>CIRemesasCobros.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneracionFicheros\CIRemesasPagos.resx">
+      <DependentUpon>CIRemesasPagos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GeneracionFicheros\frmDatosFichero.resx">
+      <DependentUpon>frmDatosFichero.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mandatos\CIMandatos.resx">
+      <DependentUpon>CIMandatos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mandatos\MntoMandato.resx">
+      <DependentUpon>MntoMandato.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

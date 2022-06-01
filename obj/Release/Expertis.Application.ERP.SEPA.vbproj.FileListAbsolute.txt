@@ -1,0 +1,45 @@
+C:\Builds\2\Producto\Expertis50R2_Release\bin\Release\Expertis.Application.ERP.SEPA.dll
+C:\Builds\2\Producto\Expertis50R2_Release\bin\Release\Expertis.Application.ERP.SEPA.pdb
+C:\Builds\2\Producto\Expertis50R2_Release\bin\Release\Expertis.Application.ERP.SEPA.xml
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.SEPA\obj\Release\ResolveAssemblyReference.cache
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.SEPA\obj\Release\Solmicro.Expertis.Application.ERP.SEPA.CIBancoPropioBanco.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.SEPA\obj\Release\Solmicro.Expertis.Application.ERP.SEPA.CIClienteBanco.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.SEPA\obj\Release\Solmicro.Expertis.Application.ERP.SEPA.CICobrosMandato.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.SEPA\obj\Release\Solmicro.Expertis.Application.ERP.SEPA.CIPersonalBanco.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.SEPA\obj\Release\Solmicro.Expertis.Application.ERP.SEPA.CIProveedorBanco.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.SEPA\obj\Release\Solmicro.Expertis.Application.ERP.SEPA.frmIntroducirCodigoISO.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.SEPA\obj\Release\Solmicro.Expertis.Application.ERP.SEPA.CIRemesasCobros.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.SEPA\obj\Release\Solmicro.Expertis.Application.ERP.SEPA.CIRemesasPagos.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.SEPA\obj\Release\Solmicro.Expertis.Application.ERP.SEPA.frmDatosFichero.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.SEPA\obj\Release\Solmicro.Expertis.Application.ERP.SEPA.CIMandatos.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.SEPA\obj\Release\Solmicro.Expertis.Application.ERP.SEPA.MntoMandato.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.SEPA\obj\Release\Solmicro.Expertis.Application.ERP.SEPA.Resources.resources
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.SEPA\obj\Release\Expertis.Application.ERP.SEPA.vbproj.GenerateResource.Cache
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.SEPA\obj\Release\Expertis.Application.ERP.SEPA.dll.licenses
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.SEPA\obj\Release\Expertis.Application.ERP.SEPA.dll
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.SEPA\obj\Release\Expertis.Application.ERP.SEPA.xml
+C:\Builds\2\Producto\Expertis50R2_Release\src\Main\Source\Application\Expertis.Application.ERP.SEPA\obj\Release\Expertis.Application.ERP.SEPA.pdb
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.SEPA\bin\Release\Expertis.Application.ERP.SEPA.dll
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.SEPA\bin\Release\Expertis.Application.ERP.SEPA.pdb
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.SEPA\bin\Release\Expertis.Application.ERP.SEPA.xml
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.SEPA\obj\Release\ResolveAssemblyReference.cache
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.SEPA\obj\Release\Solmicro.Expertis.Application.ERP.SEPA.CIBancoPropioBanco.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.SEPA\obj\Release\Solmicro.Expertis.Application.ERP.SEPA.CIClienteBanco.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.SEPA\obj\Release\Solmicro.Expertis.Application.ERP.SEPA.CICobrosMandato.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.SEPA\obj\Release\Solmicro.Expertis.Application.ERP.SEPA.CIPersonalBanco.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.SEPA\obj\Release\Solmicro.Expertis.Application.ERP.SEPA.CIProveedorBanco.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.SEPA\obj\Release\Solmicro.Expertis.Application.ERP.SEPA.frmIntroducirCodigoISO.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.SEPA\obj\Release\Solmicro.Expertis.Application.ERP.SEPA.CIRemesasCobros.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.SEPA\obj\Release\Solmicro.Expertis.Application.ERP.SEPA.CIRemesasPagos.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.SEPA\obj\Release\Solmicro.Expertis.Application.ERP.SEPA.frmDatosFichero.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.SEPA\obj\Release\Solmicro.Expertis.Application.ERP.SEPA.CIMandatos.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.SEPA\obj\Release\Solmicro.Expertis.Application.ERP.SEPA.MntoMandato.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.SEPA\obj\Release\Solmicro.Expertis.Application.ERP.SEPA.Resources.resources
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.SEPA\obj\Release\Expertis.Application.ERP.SEPA.vbproj.GenerateResource.Cache
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.SEPA\obj\Release\Expertis.Application.ERP.SEPA.dll.licenses
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.SEPA\obj\Release\Expertis.Application.ERP.SEPA.dll
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.SEPA\obj\Release\Expertis.Application.ERP.SEPA.xml
+C:\Users\lgonzalez\Desktop\EXPERTIS\DESARROLLO EXPERTIS\FR2Sergio\Application\Expertis.Application.ERP.SEPA\obj\Release\Expertis.Application.ERP.SEPA.pdb
+C:\ExpertisNet50R2test\Bin\Expertis.Application.ERP.SEPA.dll
+C:\ExpertisNet50R2test\Bin\Expertis.Application.ERP.SEPA.pdb
+C:\ExpertisNet50R2test\Bin\Expertis.Application.ERP.SEPA.xml

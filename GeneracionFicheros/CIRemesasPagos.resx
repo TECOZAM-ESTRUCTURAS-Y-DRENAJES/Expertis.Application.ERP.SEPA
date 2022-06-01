@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Grid_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="IDRemesa"&gt;&lt;Caption&gt;Remesa&lt;/Caption&gt;&lt;DataMember&gt;IDRemesa&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;IDRemesa&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;53&lt;/Width&gt;&lt;/Column0&gt;&lt;Column1 ID="FechaRemesa"&gt;&lt;Caption&gt;Fecha Remesa&lt;/Caption&gt;&lt;DataMember&gt;FechaRemesa&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;FechaRemesa&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;90&lt;/Width&gt;&lt;/Column1&gt;&lt;Column2 ID="TipoFichero"&gt;&lt;Caption&gt;Tipo Fichero&lt;/Caption&gt;&lt;DataMember&gt;TipoFichero&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;TipoFichero&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;140&lt;/Width&gt;&lt;/Column2&gt;&lt;Column3 ID="Ruta"&gt;&lt;Caption&gt;Ruta&lt;/Caption&gt;&lt;DataMember&gt;Ruta&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;Ruta&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;400&lt;/Width&gt;&lt;/Column3&gt;&lt;/Columns&gt;&lt;ChildTables Collection="true" ElementName="Table"&gt;&lt;Table0 ID="GridPagosRemesa"&gt;&lt;Key&gt;GridPagosRemesa&lt;/Key&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="IDPago"&gt;&lt;Caption&gt;IDPago&lt;/Caption&gt;&lt;DataMember&gt;IDPago&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;IDPago&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column0&gt;&lt;Column1 ID="AbrvSituacion"&gt;&lt;Caption&gt;Situación&lt;/Caption&gt;&lt;DataMember&gt;AbrvSituacion&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;AbrvSituacion&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;/Column1&gt;&lt;Column2 ID="Titulo"&gt;&lt;Caption&gt;Título&lt;/Caption&gt;&lt;DataMember&gt;Titulo&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;Titulo&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;Width&gt;300&lt;/Width&gt;&lt;/Column2&gt;&lt;Column3 ID="IDProveedor"&gt;&lt;Caption&gt;Proveedor&lt;/Caption&gt;&lt;DataMember&gt;IDProveedor&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;IDProveedor&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;/Column3&gt;&lt;Column4 ID="NFactura"&gt;&lt;Caption&gt;Factura&lt;/Caption&gt;&lt;DataMember&gt;NFactura&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;NFactura&lt;/Key&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;/Column4&gt;&lt;Column5 ID="FechaVencimiento"&gt;&lt;Caption&gt;Fecha Vto.&lt;/Caption&gt;&lt;DataMember&gt;FechaVencimiento&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;dd/MM/yyyy&lt;/FormatString&gt;&lt;Key&gt;FechaVencimiento&lt;/Key&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;/Column5&gt;&lt;Column6 ID="ImpVencimiento"&gt;&lt;Caption&gt;Imp. Vencimiento&lt;/Caption&gt;&lt;DataMember&gt;ImpVencimiento&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;#,##0.00&lt;/FormatString&gt;&lt;Key&gt;ImpVencimiento&lt;/Key&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/Column6&gt;&lt;Column7 ID="AbrvMoneda"&gt;&lt;Caption&gt;Abrv. Moneda&lt;/Caption&gt;&lt;DataMember&gt;AbrvMoneda&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;AbrvMoneda&lt;/Key&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;Width&gt;20&lt;/Width&gt;&lt;/Column7&gt;&lt;Column8 ID="ImpVencimientoA"&gt;&lt;Caption&gt;Imp. Vencimiento A&lt;/Caption&gt;&lt;DataMember&gt;ImpVencimientoA&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;#,##0.00&lt;/FormatString&gt;&lt;Key&gt;ImpVencimientoA&lt;/Key&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/Column8&gt;&lt;Column9 ID="ImpVencimientoB"&gt;&lt;Caption&gt;Imp. Vencimiento B&lt;/Caption&gt;&lt;DataMember&gt;ImpVencimientoB&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;#,##0.00&lt;/FormatString&gt;&lt;Key&gt;ImpVencimientoB&lt;/Key&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/Column9&gt;&lt;Column10 ID="Contabilizado"&gt;&lt;Caption&gt;Contabilizado&lt;/Caption&gt;&lt;DataMember&gt;Contabilizado&lt;/DataMember&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;Contabilizado&lt;/Key&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column10&gt;&lt;/Columns&gt;&lt;GroupCondition /&gt;&lt;/Table0&gt;&lt;/ChildTables&gt;&lt;GroupCondition /&gt;&lt;/RootTable&gt;&lt;FormatStyles Collection="true" ElementName="Style"&gt;&lt;Style0 ID="ContabilizadoFormatStyle"&gt;&lt;FontBold&gt;True&lt;/FontBold&gt;&lt;Key&gt;ContabilizadoFormatStyle&lt;/Key&gt;&lt;/Style0&gt;&lt;/FormatStyles&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <metadata name="UiCommandManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>
